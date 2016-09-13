@@ -59,6 +59,7 @@ require 'overview/sensors/voltages.inc.php';
 require 'overview/sensors/current.inc.php';
 require 'overview/sensors/power.inc.php';
 require 'overview/sensors/frequencies.inc.php';
+require 'overview/sensors/runtime.inc.php';
 require 'overview/sensors/load.inc.php';
 require 'overview/sensors/state.inc.php';
 require 'overview/sensors/signal.inc.php';
