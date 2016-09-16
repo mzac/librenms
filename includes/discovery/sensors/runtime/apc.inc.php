@@ -13,6 +13,7 @@ if ($device['os'] == 'apc') {
 #        $oid                = 'upsAdvBatteryRunTimeRemaining.0';
         $index              = 'upsAdvBatteryRunTimeRemaining.0';
         $descr              = 'Runtime';
-        discover_sensor($valid['sensor'], 'runtime', $device, $oid, $index, $type, $descr, $divisor, '1', null, null, null, null, $current);
+        $lowlimit           = 5;
+        discover_sensor($valid['sensor'], 'runtime', $device, $oid, $index, $type, $descr, $divisor, '1', $lowlimit, null, null, null, $current);
     }
 }//end if
