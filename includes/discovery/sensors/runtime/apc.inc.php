@@ -10,9 +10,9 @@ if ($device['os'] == 'apc') {
         list($oid,$current) = explode(' ', $oids);
         $divisor            = 6000;
         $type               = 'apc';
-        $index              = '2.2.3.0';
+        $oid                = 'upsAdvBatteryRunTimeRemaining.0';
+        $index              = 'upsAdvBatteryRunTimeRemaining.0';
         $descr              = 'Runtime';
-        discover_sensor($valid['sensor'], 'runtime', $device, $oid, $index, $type, $descr, $divis
-or, '1', null, null, null, null, $current);
+        discover_sensor($valid['sensor'], 'runtime', $device, $oid, $index, $type, $descr, $divisor, '1', null, null, null, null, $current);
     }
 }//end if
