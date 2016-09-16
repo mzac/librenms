@@ -1,6 +1,6 @@
 <?php
 
-echo 'Frequencies: ';
+echo 'Runtime: ';
 
 // Include all discovery modules
 $include_dir = 'includes/discovery/sensors/runtime';
